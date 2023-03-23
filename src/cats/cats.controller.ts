@@ -1,5 +1,5 @@
 import { Controller, Get, Post } from '@nestjs/common'
-import { Param } from '@nestjs/common/decorators'
+import { Param } from '@nestjs/common'
 
 @Controller('cats')
 export class CatsController {
